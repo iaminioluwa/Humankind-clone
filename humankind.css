@@ -1,0 +1,583 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+    /* height: 200px; */
+    align-items: center;
+    background-color: #0d1422;
+    justify-content: space-between;
+    padding: 10px 40px;
+    display: flex;
+    text-transform: uppercase;
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.nav-logo {
+    font-size: 42px;
+    color: #cfd0d3;
+}
+
+.nav-logo:hover {
+    color: white;
+
+}
+
+.first {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.nav-links>a,
+.nav-cta>a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.nav-cta {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+
+}
+
+.nav-cta>a {
+    font-weight: 300px;
+}
+
+.nav-cta>button {
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    background-color: #cfd0d3;
+
+}
+
+.nav-cta>button:hover {
+    background-color: #ffffff;
+}
+
+header {
+    height: 110vh;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./multimedia/KeyArt_Oceania_3840x2160\ \(2\).jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: left;
+
+}
+
+.head-content>button {
+    padding: 20px 60px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    justify-self: center;
+}
+
+.head-content>button:hover {
+    background-color: white;
+    color: #0d1422;
+}
+
+.white-line {
+    height: 10px;
+    background-color: white;
+}
+.section1{
+    background-color: #0d1422;
+}
+
+.section1-1{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    background-color: #0d1422;
+    font-weight: 600;
+    justify-content: center;
+    text-transform: uppercase;
+    align-items: center;
+    /* border: 2px solid red; */
+
+}
+.section1-1>h1 {
+    font-size: 120px;
+
+}
+
+.section1-1>h3 {
+    font-size: 50px;
+}
+
+
+.sup-tm {
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    word-spacing: -20px;
+}
+
+
+.sect1{
+    display: flex;
+   
+}
+.vid-group>video{
+    width: 250px;
+    height: 350px;
+    border-radius: 16px;
+    position: relative;
+    
+}
+.vid-group>h1, .vid-group>p{
+    width: 230px;
+    text-align: start;
+    color: white;
+}
+.section1-2{
+    display: flex;
+    background-color: #0d1422;
+    padding: 60px 8px;
+    justify-content: center;
+     gap: 25px;
+     flex-wrap: wrap;
+
+}
+.vid-group>h2{
+    position: relative;
+    font-size: 20px;
+    bottom:10%;
+    color: white;
+    width:230px;
+    /* line-height: 60%; */
+    text-align:center;
+    text-transform: uppercase;
+    text-wrap: wrap;
+
+}
+
+.section2{
+    background-image: url(./multimedia/promo-bg.jpg);
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+.section2>h4{
+    font-weight: 600;
+    font-size: 30px;
+}
+.promo{
+    margin: 50px 30px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+.onpromo{
+    width: 100%;
+    height: 400px;
+}
+.section2>button{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #0d1422;
+    padding: 20px 40px;
+    left: 3%;
+    border-radius: 4px;
+    position: relative;
+    bottom: 50%;
+}
+.section3{
+    background-image: url(https://cdn.sega.co.uk/humankind-game/public/styles/1920/public/content/media/bg/image/second-promo-landscape.jpg?VersionId=CAe7DFcem91Si2h3UUkbDEcr81RUUMrZ&itok=YPnRZU6s);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    backface-visibility: visible;
+    width: 100%;
+    height: 100vh;
+    /* z-index: 1; */
+    position: relative;
+
+}
+.section3>img{
+    width: 700px;
+    height: 350px;
+    position: absolute;
+    top: 15%;
+}
+.section3>h1{
+    font-size: 16px;
+    color: white;
+}
+.section3-1{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    padding: 80px 10px 0 10px;
+    /* border: 2px solid red; */
+    width: 40%;
+    height: 80%;
+    justify-content: right;
+}
+.section3-1>h1{
+    color: #ffffff;
+    font-size: 45px;
+    text-wrap: wrap;
+    font-weight: 700;
+}
+.section3-1>h3{
+    color: #ffffff;
+    font-size: 25px;
+    text-wrap: wrap;
+    font-weight: 700;
+}
+.section3-1>div>h5{
+    color: white;
+    font-size: 18px;
+    line-height: 19px;
+    font-weight: 500;
+
+}
+.section3-1>button{
+    color: #4b4d55;
+    background-color: #ffffff;
+    padding: 25px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border: 2px solid #ffffff;
+}
+.section3-1>button:hover{
+    background: transparent;
+}
+.section4{
+    background-image: url(./multimedia/quote_bg.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: #ffffff;
+    position: relative;
+}
+.show1{
+    animation-name: show1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 7s;
+    animation-timing-function: infinite;
+    opacity: 0;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+
+
+@keyframes show1 {
+    0%{
+        opacity: 1;
+    }50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+    
+}
+.show2{
+    animation-name: show2;
+    animation-timing-function: ease-in-out;
+    animation-timing-function: infinite;
+    animation-duration: 7s;
+    opacity: 0;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+@keyframes show2 {
+    0%{
+        opacity: 0;
+    }50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.show3{
+    animation-name: show3;
+    animation-timing-function: ease-in-out;
+    animation-timing-function: infinite;
+    animation-duration: 7s;
+    opacity: 0;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 7%;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+@keyframes show3 {
+    0%{
+        opacity: 0;
+    }50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.section5{
+    background-color: #131622;
+    width: 100%;
+    height: 250px;
+    color: #ffffff;
+    text-transform: uppercase;
+    position: relative;
+
+
+}
+.section5>h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}  
+.section5-1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    bottom:8%;
+    right: 5%;
+}
+.section5-1>button{
+    padding: 12px 22px;
+    color: #eff1ef;
+    border: 1px solid #eff1ef;
+    background-color: #131622;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+.section6{
+    display: grid;
+    grid-template-columns: 1fr ;
+    justify-items: center;
+    background-color: #131622;
+}
+.section6-head{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 20px;
+    
+
+}
+.section6-head>img,.section6-contents>img{
+    width: 100%;
+    object-fit: cover;
+}
+.section6-contents{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+    gap: 20px;
+
+}  
+.section7{
+    background-image: url(./multimedia/G2G-Background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    backface-visibility: visible;
+    position: relative;
+}
+.section7>img{
+    background-size: contain;
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    top: 5%;
+    left: 4%;
+}
+.section7>button{
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: transparent;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    gap: 10px;
+
+}
+.section7>h5{
+    color: #ffffff;
+    position: absolute;
+    top: 40%;
+    left: 4%;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+}
+.section7>button>img{
+    width: 20px;
+    height: 20px;
+    align-items: center;
+}
+footer{
+    background-color: #131622;
+    position: relative;
+    height: 110vh;
+}
+.footer-logo{
+    display: flex;
+    gap: 50px;
+    position: absolute;
+    top: 7%;
+    left:7%;
+    width: 25%;
+}
+.footer-logo>img{
+    width: 200px;
+    height: 50px;
+}
+
+footer>hr{
+    position: absolute;
+    left: 8%;
+    top: 15%;
+    width: 84%;
+    
+}
+.footer-1{
+    position: absolute;
+    top: 19%;
+    left: 8%;
+    width: 84%;
+    height: 50px;
+    /* border: 2px solid red; */
+}
+.footer-1>h6{
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 15px;
+}
+.footer-2{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 30%;
+    left: 8%;
+}
+.footer-2>a{
+    text-decoration: none;
+    color: #eff1ef;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+.footer-3{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 38%;
+    left: 8%;
+}
+.footer-3>img{
+    width: 25px;
+    height: 25px;
+}
+footer>button{
+    padding: 10px 10px;
+    color: #ffffff;
+    background: transparent;
+    border: 2px solid #ffffff;
+    position: absolute;
+    top: 45%;
+    left: 8%;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+}
+footer>a{
+    text-decoration: none;
+    color: #ffffff;
+    position: absolute;
+    top: 55%;
+    left: 8%;
+    font-size: 14px;
+    
+}
+footer>img{
+    position: absolute;
+    top: 70%;
+    left: 8%;
+    width: 250px;
+    height: 120px;
+}
+
+@media screen and (max-width: 425px) { 
+    .section1>h1 {
+    font-size: 60px;
+}
+.section1>h3{
+    text-align: center;
+}
+.sect2-head{
+    grid-template-columns: 1fr;
+}
+.sect2-contents{
+    grid-template-columns: 1fr 1fr;
+}
+
+}
